@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    background-color: black;
+}
+header > img{
+    width: 100%;
+    opacity: 0.5;
+}
+nav{
+    position: absolute;
+    top: 10px;
+    color: white;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+nav > ul{
+    display: flex;
+    margin-left:150px ;
+}
+.logo{
+    position: absolute;
+    margin-left: 80px;
+    top: 8px;
+    width: 10%;
+}
+.srch{
+    position: absolute;
+    margin-left:770px;
+    top: 20px;
+    width: 30%;
+}
+nav > ul > li{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 20px;
+}
+ul > li > a{
+    text-decoration: none;
+    color:white;
+    padding:5px 10px ;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+li>a:hover{
+    background-color: white;
+    color: black;
+}
+header > h1{
+    position: absolute;
+    font-family: 'Satisfy', cursive;
+    font-size: 90px;
+    margin-left: 90px;
+    top: 40px;
+    color: white;
+}
+header > p{
+    position: absolute;
+    font-family: 'Dancing Script', cursive;;
+    font-size: 30px;
+    margin-left: 60px;
+    top: 220px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 50px;
+}
+header > a{
+    position: absolute;
+    top: 490px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+}
+header > a:hover{
+color: white;
+background-color: black;
+}
