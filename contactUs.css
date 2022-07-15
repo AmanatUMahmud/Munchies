@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: wheat;
 }
 
 header {
@@ -115,6 +116,7 @@ header>input {
 
 footer {
     background-color: wheat;
+    position: absolute;
 }
 
 .foot {

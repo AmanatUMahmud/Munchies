@@ -235,8 +235,15 @@ background-color: black;
 .resize img{
     width: 50%;
 }
+.resize .food{
+    padding-right: 20px;
+}
+.dis p{
+    padding-right: 30px;
+}
 footer{
     background-color: wheat;
+    position: absolute;
 }
 .foot{
     display:flex;
