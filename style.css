@@ -1,54 +1,65 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     position: relative;
 }
-header > img{
+
+header>img {
     width: 100%;
 }
-nav{
+
+nav {
     position: absolute;
     top: 10px;
     color: white;
     /* padding-left: 20px;
     padding-right: 20px; */
 }
-nav > ul{
+
+nav>ul {
     display: flex;
-    margin-left:150px ;
+    margin-left: 150px;
 }
-.logo{
+
+.logo {
     position: absolute;
     margin-left: 80px;
     top: 8px;
     width: 10%;
 }
-.srch{
+
+.srch {
     position: absolute;
-    margin-left:770px;
+    margin-left: 770px;
     top: 20px;
     width: 30%;
 }
-nav > ul > li{
+
+nav>ul>li {
     text-decoration: none;
     list-style: none;
     padding: 5px 20px;
 }
-ul > li > a{
+
+ul>li>a {
     text-decoration: none;
-    color:white;
-    padding:5px 10px ;
+    color: white;
+    padding: 5px 10px;
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
     font-weight: bold;
+    border-radius: 25px;
 }
-li>a:hover{
+
+li>a:hover {
     background-color: white;
     color: black;
 }
-header > h1{
+
+header>h1 {
     position: absolute;
     font-family: 'Satisfy', cursive;
     font-size: 90px;
@@ -56,17 +67,21 @@ header > h1{
     top: 60px;
     color: white;
 }
-header > h4{
+
+header>h4 {
     position: absolute;
-    font-family: 'Dancing Script', cursive;;
+    font-family: 'Dancing Script', cursive;
+    ;
     font-size: 30px;
     margin-left: 30px;
     top: 230px;
     color: white;
 }
-header > p{
+
+header>p {
     position: absolute;
-    font-family: 'Dancing Script', cursive;;
+    font-family: 'Dancing Script', cursive;
+    ;
     font-size: 20px;
     margin-left: 30px;
     top: 300px;
@@ -74,7 +89,8 @@ header > p{
     width: 50%;
     margin-top: 25px;
 }
-header > a{
+
+header>a {
     position: absolute;
     top: 490px;
     left: 8.5%;
@@ -91,49 +107,59 @@ header > a{
     border-radius: 25px;
     text-decoration: none;
 }
-header > a:hover{
-color: white;
-background-color: black;
+
+header>a:hover {
+    color: white;
+    background-color: black;
 }
-.best> h1{
+
+.best>h1 {
     font-family: 'Satisfy', cursive;
     text-align: center;
     font-size: 70px;
     margin-bottom: 0;
 }
-.best > p{
+
+.best>p {
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     text-align: center;
     margin-left: 280px;
     margin-right: 280px;
 }
-.flexible{
+
+.flexible {
     display: flex;
 }
-.flexible img{
+
+.flexible img {
     width: 80%;
     margin-left: 15px;
     margin-right: 20px;
 }
-.first img{
+
+.first img {
     width: 90%;
-    
+
 }
-.first{
+
+.first {
     margin-left: 30px;
     margin-right: 30px;
 }
-.flexible p{
+
+.flexible p {
     font-family: 'Dancing Script', cursive;
     text-align: justify;
     width: 80%;
     margin-left: 15px;
 }
-.third img{
+
+.third img {
     width: 85%;
 }
-.see{
+
+.see {
     margin-left: 450px;
     text-decoration: none;
     background-color: black;
@@ -145,33 +171,40 @@ background-color: black;
     border: none;
     border-radius: 25px;
 }
-.see:hover{
+
+.see:hover {
     background-color: wheat;
-    color:black
+    color: black
 }
-.dis{
+
+.dis {
     display: flex;
 }
-.half{
+
+.half {
     width: 50%;
 }
-.half h1{
+
+.half h1 {
     color: white;
     font-family: 'Satisfy', cursive;
     font-size: 70px;
-    margin-left:30px;
+    margin-left: 30px;
 }
-.dis img{
+
+.dis img {
     width: 50%;
     margin-top: 80px;
     margin-left: 50px;
 }
-.half p{
+
+.half p {
     color: white;
-    font-family:'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive;
     font-size: 20px;
     margin-left: 30px;
 }
+
 /* .half p{
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
@@ -181,15 +214,16 @@ background-color: black;
     margin-left: 30px;
     margin-right: 20px;
 } */
-.promo{
+.promo {
     margin-top: 50px;
     background-color: black;
     padding-bottom: 20px;
 }
-.getdis{
+
+.getdis {
     text-decoration: none;
     background-color: white;
-    color:black;
+    color: black;
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     font-weight: bold;
@@ -197,30 +231,35 @@ background-color: black;
     border-radius: 25px;
     margin-left: 20px;
 }
-.getdis:hover{
+
+.getdis:hover {
     background-color: wheat;
 }
-.resize{
+
+.resize {
     margin-left: 20px;
     display: flex;
 }
-.nhalf h1{
-    color:white;
+
+.nhalf h1 {
+    color: white;
     font-family: 'Satisfy', cursive;
     font-size: 70px;
-    margin-left:20px;
-}
-.nhalf p{
-    color:white;
     margin-left: 20px;
-    margin-right:40px ;
-    font-family:'Dancing Script', cursive;
+}
+
+.nhalf p {
+    color: white;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-family: 'Dancing Script', cursive;
     font-size: 20px;
 }
-.resize a{
+
+.resize a {
     text-decoration: none;
     background-color: white;
-    color:black;
+    color: black;
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     font-weight: bold;
@@ -229,61 +268,75 @@ background-color: black;
     margin-left: 20px;
     /* margin-top: 0px; */
 }
-.resize a:hover{
-    background-color:wheat;
+
+.resize a:hover {
+    background-color: wheat;
 }
-.resize img{
+
+.resize img {
     width: 50%;
 }
-.resize .food{
+
+.resize .food {
     padding-right: 20px;
 }
-.dis p{
+
+.dis p {
     padding-right: 30px;
 }
-footer{
+
+footer {
     background-color: wheat;
     position: absolute;
 }
-.foot{
-    display:flex;
+
+.foot {
+    display: flex;
 }
-.footleft{
+
+.footleft {
     width: 50%;
     margin: 0 10px;
     text-align: justify;
 }
-.footleft h2{
+
+.footleft h2 {
     font-family: 'Satisfy', cursive;
     font-size: 40px;
 }
-.footleft p{
+
+.footleft p {
     font-family: 'Dancing Script', cursive;
     font-size: 18px;
 }
 
-.footright{
+.footright {
     width: 25%;
     margin: 0 10px;
     text-align: justify;
 }
-.footright h2{
+
+.footright h2 {
     font-family: 'Satisfy', cursive;
     font-size: 40px;
 }
-.footright h3{
+
+.footright h3 {
     font-family: 'Satisfy', cursive;
     font-size: 20px;
 }
-.footright a{
+
+.footright a {
     text-decoration: none;
-    color:black
+    color: black
 }
-.footright p{
+
+.footright p {
     font-family: 'Dancing Script', cursive;
     font-size: 18px;
 }
-footer h4{
+
+footer h4 {
     text-align: center;
     font-family: 'Satisfy', cursive;
     font-size: 20px;
