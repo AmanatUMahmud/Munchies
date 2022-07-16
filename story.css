@@ -45,6 +45,7 @@ ul > li > a{
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
     font-weight: bold;
+    border-radius: 25px;
 }
 li>a:hover{
     background-color: white;
